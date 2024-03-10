@@ -95,10 +95,12 @@ const Menu = ({darkMode, setDarkMode}) => {
           VTube
         </Logo>
         </Link>
+        <Link to='/' style={{textDecoration:"none", color:"inherit"}} >
         <Item> 
           <HomeIcon />
           Home
         </Item>
+        </Link>
         <Item> 
           <ExploreOutlinedIcon />
           Explore
